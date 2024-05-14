@@ -5,7 +5,7 @@ from mysql.connector import errorcode
 try:
     my_connection = mysql.connector.connect(
         user = "root",
-        password = "Kteasley",
+        password = "Password",
         host = "localhost",
         database = "project"
     )
